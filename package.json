@@ -1,0 +1,32 @@
+{
+  "name": "gsoc-oncoprint-command-line-tool",
+  "version": "1.0.0",
+  "description": "generates oncoprint of cancer study in svg format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "oncoprint": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makkBit/gsoc-oncoprint-command-line-tool.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cBioPortal",
+    "oncoprint",
+    "commandline"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makkBit/gsoc-oncoprint-command-line-tool/issues"
+  },
+  "homepage": "https://github.com/makkBit/gsoc-oncoprint-command-line-tool#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0"
+  }
+}
